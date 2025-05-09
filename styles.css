@@ -1,0 +1,130 @@
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0d0d1a, #0c0c26);
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Footer */
+  header, footer {
+    background: rgba(5, 5, 15, 0.9);
+    color: #66d9ef;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #1a1a2e;
+    box-shadow: 0 2px 20px rgba(102, 217, 239, 0.15);
+  }
+  
+  footer {
+    border-top: 1px solid #1a1a2e;
+    box-shadow: 0 -2px 20px rgba(102, 217, 239, 0.15);
+  }
+  
+  /* Navigation Links */
+  nav a {
+    color: #66d9ef;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #a56eff;
+    text-shadow: 0 0 6px #a56eff;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #66d9ef;
+    text-shadow: 0 0 4px rgba(102, 217, 239, 0.5);
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Sections */
+  section {
+    background-color: rgba(20, 20, 40, 0.6);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1a1a2e;
+    box-shadow: 0 0 15px rgba(102, 217, 239, 0.05);
+  }
+  
+  /* Section Headings */
+  section h2 {
+    color: #a56eff;
+    text-shadow: 0 0 5px rgba(165, 110, 255, 0.5);
+  }
+  
+  /* Paragraph Text */
+  section p, ul {
+    color: #cccccc;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #1c1c3c;
+    color: #66d9ef;
+    padding: 12px 24px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2e2e60;
+    color: #a56eff;
+    box-shadow: 0 0 12px rgba(165, 110, 255, 0.4);
+    border-color: #a56eff;
+  }
+  
+  /* Form Elements */
+  form label {
+    display: block;
+    margin: 10px 0;
+    color: #66d9ef;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: #1e1e3f;
+    color: #ffffff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #66d9ef;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 217, 239, 0.5);
+  }
+  
+  /* Footer */
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 12px;
+    }
+  }
+  
